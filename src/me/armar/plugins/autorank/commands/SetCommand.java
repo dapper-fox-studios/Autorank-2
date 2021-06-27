@@ -15,7 +15,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
 /**
- * The command delegator for the '/ar set' command.
+ * The command delegator for the '/ot set' command.
  */
 public class SetCommand extends AutorankCommand {
 
@@ -91,6 +91,6 @@ public class SetCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar set [player] [value]";
+        return "/ot set [player] [value]";
     }
 }

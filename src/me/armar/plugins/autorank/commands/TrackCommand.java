@@ -15,7 +15,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * The command delegator for the '/ar track' command.
+ * The command delegator for the '/ot track' command.
  */
 public class TrackCommand extends AutorankCommand {
 
@@ -174,6 +174,6 @@ public class TrackCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar track <req id> <path>";
+        return "/ot track <req id> <path>";
     }
 }

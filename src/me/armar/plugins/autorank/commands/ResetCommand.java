@@ -17,7 +17,7 @@ import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 
 /**
- * The command delegator for the '/ar reset' command.
+ * The command delegator for the '/ot reset' command.
  */
 public class ResetCommand extends AutorankCommand {
 
@@ -103,6 +103,6 @@ public class ResetCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar reset <player> <action>";
+        return "/ot reset <player> <action>";
     }
 }

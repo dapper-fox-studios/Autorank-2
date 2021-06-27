@@ -12,7 +12,7 @@ import org.bukkit.command.CommandSender;
 import java.util.UUID;
 
 /**
- * The command delegator for the '/ar syncstats' command.
+ * The command delegator for the '/ot syncstats' command.
  */
 public class SyncStatsCommand extends AutorankCommand {
 
@@ -70,6 +70,6 @@ public class SyncStatsCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar syncstats";
+        return "/ot syncstats";
     }
 }

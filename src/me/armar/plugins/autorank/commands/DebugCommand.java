@@ -9,7 +9,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
 /**
- * The command delegator for the '/ar debug' command.
+ * The command delegator for the '/ot debug' command.
  */
 public class DebugCommand extends AutorankCommand {
 
@@ -59,6 +59,6 @@ public class DebugCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar debug";
+        return "/ot debug";
     }
 }

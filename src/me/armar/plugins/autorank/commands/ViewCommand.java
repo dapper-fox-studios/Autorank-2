@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * The command delegator for the '/ar view' command.
+ * The command delegator for the '/ot view' command.
  */
 public class ViewCommand extends AutorankCommand {
 
@@ -36,7 +36,7 @@ public class ViewCommand extends AutorankCommand {
         }
 
         if (args.length < 2) {
-            sender.sendMessage(Lang.INVALID_FORMAT.getConfigValue("/ar view <path name> or /ar view list"));
+            sender.sendMessage(Lang.INVALID_FORMAT.getConfigValue("/ot view <path name> or /ot view list"));
             return true;
         }
 
@@ -49,7 +49,7 @@ public class ViewCommand extends AutorankCommand {
             isPlayer = true;
         }
 
-        // /ar view list (or a name of a path)
+        // /ot view list (or a name of a path)
         pathName = AutorankCommand.getStringFromArgs(args, 1);
 
         // Get a list of possible paths that a player can take?
@@ -193,7 +193,7 @@ public class ViewCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar view <path name>";
+        return "/ot view <path name>";
     }
 
 }

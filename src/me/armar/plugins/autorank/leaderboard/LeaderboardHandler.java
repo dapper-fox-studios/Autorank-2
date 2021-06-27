@@ -17,11 +17,11 @@ import java.util.concurrent.ExecutionException;
 
 /**
  * This class is used to handle all leaderboard things. <br>
- * When a player calls /ar leaderboard, it will show the currently cached
+ * When a player calls /ot leaderboard, it will show the currently cached
  * leaderboard. <br>
- * <i>/ar leaderboard force</i> can be used to forcefully update the current
+ * <i>/ot leaderboard force</i> can be used to forcefully update the current
  * leaderboard. <br>
- * <i>/ar leaderboard broadcast</i> can be used to broadcast the leaderboard
+ * <i>/ot leaderboard broadcast</i> can be used to broadcast the leaderboard
  * over the entire server.
  * <p>
  * Date created: 21:03:23 15 mrt. 2014

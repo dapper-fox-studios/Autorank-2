@@ -13,7 +13,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 /**
- * The command delegator for the '/ar fcheck' command.
+ * The command delegator for the '/ot fcheck' command.
  */
 public class ForceCheckCommand extends AutorankCommand {
 
@@ -79,6 +79,6 @@ public class ForceCheckCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar forcecheck <player>";
+        return "/ot forcecheck <player>";
     }
 }

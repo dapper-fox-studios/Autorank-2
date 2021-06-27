@@ -16,7 +16,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 /**
- * The command delegator for the '/ar gset' command.
+ * The command delegator for the '/ot gset' command.
  */
 public class GlobalSetCommand extends AutorankCommand {
 
@@ -92,6 +92,6 @@ public class GlobalSetCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar gset [player] [value]";
+        return "/ot gset [player] [value]";
     }
 }

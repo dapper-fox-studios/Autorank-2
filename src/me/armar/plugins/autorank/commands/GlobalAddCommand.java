@@ -16,7 +16,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 /**
- * The command delegator for the '/ar gadd' command.
+ * The command delegator for the '/ot gadd' command.
  */
 public class GlobalAddCommand extends AutorankCommand {
 
@@ -101,6 +101,6 @@ public class GlobalAddCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar gadd [player] [value]";
+        return "/ot gadd [player] [value]";
     }
 }

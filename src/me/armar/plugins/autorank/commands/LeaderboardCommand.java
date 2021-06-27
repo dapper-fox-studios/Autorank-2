@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * The command delegator for the '/ar leaderboard' command.
+ * The command delegator for the '/ot leaderboard' command.
  */
 public class LeaderboardCommand extends AutorankCommand {
 
@@ -118,7 +118,7 @@ public class LeaderboardCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar leaderboard <type>";
+        return "/ot leaderboard <type>";
     }
 
     @Override

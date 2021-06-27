@@ -15,7 +15,7 @@ import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 
 /**
- * The command delegator for the '/ar sync' command.
+ * The command delegator for the '/ot sync' command.
  */
 public class SyncCommand extends AutorankCommand {
 
@@ -32,7 +32,7 @@ public class SyncCommand extends AutorankCommand {
             return true;
 
         if (args.length > 1 && args[1].equalsIgnoreCase("stats")) {
-            sender.sendMessage(ChatColor.RED + "You probably meant /ar syncstats or /ar sync!");
+            sender.sendMessage(ChatColor.RED + "You probably meant /ot syncstats or /ot sync!");
             return true;
         }
 
@@ -147,6 +147,6 @@ public class SyncCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar sync";
+        return "/ot sync";
     }
 }

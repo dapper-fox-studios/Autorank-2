@@ -11,7 +11,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
 /**
- * The command delegator for the '/ar hooks' command.
+ * The command delegator for the '/ot hooks' command.
  */
 public class HooksCommand extends AutorankCommand {
 
@@ -59,6 +59,6 @@ public class HooksCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar hooks";
+        return "/ot hooks";
     }
 }

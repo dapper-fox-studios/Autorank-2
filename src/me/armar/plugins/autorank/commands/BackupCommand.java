@@ -8,7 +8,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
 /**
- * The command delegator for the '/ar backup' command.
+ * The command delegator for the '/ot backup' command.
  */
 public class BackupCommand extends AutorankCommand {
 
@@ -64,6 +64,6 @@ public class BackupCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar backup <file>";
+        return "/ot backup <file>";
     }
 }

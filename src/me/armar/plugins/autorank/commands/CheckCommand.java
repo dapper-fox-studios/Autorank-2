@@ -79,7 +79,7 @@ public class CheckCommand extends AutorankCommand {
         }
 
 
-        sender.sendMessage(ChatColor.GOLD + "To view the progress of a specific path, use /ar check <path name>.");
+        sender.sendMessage(ChatColor.GOLD + "To view the progress of a specific path, use /ot check <path name>.");
     }
 
     // Show specific requirements for a path.
@@ -363,6 +363,6 @@ public class CheckCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar check <player> <path>";
+        return "/ot check <player> <path>";
     }
 }

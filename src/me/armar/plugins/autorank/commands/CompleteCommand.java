@@ -15,7 +15,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * The command delegator for the '/ar complete' command.
+ * The command delegator for the '/ot complete' command.
  */
 public class CompleteCommand extends AutorankCommand {
 
@@ -175,6 +175,6 @@ public class CompleteCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar complete <req id> <path>";
+        return "/ot complete <req id> <path>";
     }
 }

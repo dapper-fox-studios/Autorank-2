@@ -19,7 +19,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
 /**
- * The command delegator for the '/ar info' command.
+ * The command delegator for the '/ot info' command.
  */
 public class InfoCommand extends AutorankCommand {
 
@@ -171,6 +171,6 @@ public class InfoCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar info <player>";
+        return "/ot info <player>";
     }
 }

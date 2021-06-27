@@ -21,7 +21,7 @@ import org.bukkit.command.CommandSender;
 import java.util.UUID;
 
 /**
- * The command delegator for the '/ar editor' command.
+ * The command delegator for the '/ot editor' command.
  */
 public class EditorCommand extends AutorankCommand {
 
@@ -173,6 +173,6 @@ public class EditorCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar editor";
+        return "/ot editor";
     }
 }

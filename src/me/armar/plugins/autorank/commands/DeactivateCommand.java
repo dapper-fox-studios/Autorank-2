@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * The command delegator for the '/ar deactivate' command.
+ * The command delegator for the '/ot deactivate' command.
  */
 public class DeactivateCommand extends AutorankCommand {
 
@@ -113,7 +113,7 @@ public class DeactivateCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar deactivate <path>";
+        return "/ot deactivate <path>";
     }
 
 }

@@ -9,7 +9,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
 /**
- * The command delegator for the '/ar reload' command.
+ * The command delegator for the '/ot reload' command.
  */
 public class ReloadCommand extends AutorankCommand {
 
@@ -53,6 +53,6 @@ public class ReloadCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar reload";
+        return "/ot reload";
     }
 }

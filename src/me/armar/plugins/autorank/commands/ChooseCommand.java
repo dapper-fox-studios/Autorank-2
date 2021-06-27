@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 /**
- * The command delegator for the '/ar choose' command.
+ * The command delegator for the '/ot choose' command.
  */
 public class ChooseCommand extends AutorankCommand {
 
@@ -72,7 +72,7 @@ public class ChooseCommand extends AutorankCommand {
         // Check if the path is eligible.
         if (!targetPath.meetsPrerequisites(player.getUniqueId())) {
             sender.sendMessage(ChatColor.RED + "You do not meet the prerequisites of this path!");
-            sender.sendMessage(ChatColor.RED + "Type " + ChatColor.GOLD + "/ar view "
+            sender.sendMessage(ChatColor.RED + "Type " + ChatColor.GOLD + "/ot view "
                     + targetPath.getDisplayName() + ChatColor.RED + " to see a list of prerequisites.");
             return true;
         }
@@ -140,7 +140,7 @@ public class ChooseCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar choose <path>";
+        return "/ot choose <path>";
     }
 
 }

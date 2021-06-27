@@ -361,7 +361,7 @@ public interface PlayerDataStorage {
 
     /**
      * Check whether a player is exempted from checking their progress on paths. This means both automated and manual
-     * checks (using /ar check).
+     * checks (using /ot check).
      *
      * @param uuid UUID of the player
      * @return true if the given player is not allowed to be checked by Autorank.

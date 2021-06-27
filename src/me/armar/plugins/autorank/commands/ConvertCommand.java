@@ -7,7 +7,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
 /**
- * The command delegator for the '/ar convert' command.
+ * The command delegator for the '/ot convert' command.
  */
 public class ConvertCommand extends AutorankCommand {
 
@@ -37,6 +37,6 @@ public class ConvertCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar convert <file>";
+        return "/ot convert <file>";
     }
 }

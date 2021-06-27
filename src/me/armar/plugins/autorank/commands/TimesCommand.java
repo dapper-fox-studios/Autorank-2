@@ -17,7 +17,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
 /**
- * The command delegator for the '/ar times' command.
+ * The command delegator for the '/ot times' command.
  */
 public class TimesCommand extends AutorankCommand {
 
@@ -108,6 +108,6 @@ public class TimesCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar times <player>";
+        return "/ot times <player>";
     }
 }

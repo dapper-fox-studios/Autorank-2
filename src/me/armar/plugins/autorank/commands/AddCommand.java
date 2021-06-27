@@ -90,6 +90,6 @@ public class AddCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar add [player] [value]";
+        return "/ot add [player] [value]";
     }
 }

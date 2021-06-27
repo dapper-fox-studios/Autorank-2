@@ -12,7 +12,7 @@ enum DefaultBehaviorOption {
      */
     PRIORITY_PATH(Integer.class, 1),
     /**
-     * Whether Autorank should show the path (e.g. in /ar view list) based on whether they meet the
+     * Whether Autorank should show the path (e.g. in /ot view list) based on whether they meet the
      * prerequisites of that path or not. (boolean)
      */
     SHOW_PATH_BASED_ON_PREREQUISITES(Boolean.class, false),

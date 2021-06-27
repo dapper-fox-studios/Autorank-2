@@ -439,7 +439,7 @@ public class Autorank extends JavaPlugin {
         // ------------- Register commands -------------
 
         // Register command
-        getCommand("autorank").setExecutor(getCommandsManager());
+        getCommand("ontime").setExecutor(getCommandsManager());
 
         // Add the migration manager so we can start migrating when a player requests it.
         this.setMigrationManager(new MigrationManager(this));

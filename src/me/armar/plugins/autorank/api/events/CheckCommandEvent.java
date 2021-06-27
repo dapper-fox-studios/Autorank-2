@@ -6,7 +6,7 @@ import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
 /**
- * This event is called when a player wants to check its status via /ar check.
+ * This event is called when a player wants to check its status via /ot check.
  * <br>
  * This event is cancellable.
  *

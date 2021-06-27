@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * The command delegator for the '/ar help' command.
+ * The command delegator for the '/ot help' command.
  */
 public class HelpCommand extends AutorankCommand {
 
@@ -114,6 +114,6 @@ public class HelpCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar help <page>";
+        return "/ot help <page>";
     }
 }

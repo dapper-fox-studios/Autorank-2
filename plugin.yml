@@ -1,6 +1,6 @@
 main: me.armar.plugins.autorank.Autorank
 name: Autorank
-url: http://dev.bukkit.org/bukkit-plugins/autorank/
+url: http://dev.bukkit.org/bukkit-plugins/ontime/
 version: ${project.version}
 authors: [Staartvin, Armarr]
 softdepend: [ Vault, GroupManager, Privileges, bPermissions, PermissionsEx, PermissionsBukkit, DroxPerms,
@@ -11,143 +11,143 @@ softdepend: [ Vault, GroupManager, Privileges, bPermissions, PermissionsEx, Perm
 description: Reward players based on their stats.
 api-version: 1.13
 commands:
-  autorank:
+  ontime:
     description: Master command of AutoRank
     usage: Autorank is disabled. Check your server.log!
-    aliases: [ar]
+    aliases: [ot]
 permissions:
-  autorank.check:
+  ontime.check:
     description: Allows checking the recommended rank.
     default: true
-  autorank.checkothers:
+  ontime.checkothers:
     description: Allows checking the recommended rank of other players.
     default: op
-  autorank.leaderboard:
+  ontime.leaderboard:
     description: Allows looking at the leaderboards.
     default: true
-  autorank.exclude:
-    description: Excludes groups or users from the autorank checks.
+  ontime.exclude:
+    description: Excludes groups or users from the ontime checks.
     default: false
-  autorank.timeexclude:
+  ontime.timeexclude:
     description: Excludes groups or users from the playtime updates.
     default: false
-  autorank.set:
+  ontime.set:
     description: Allows changing playtime of any player
     default: op
-  autorank.add:
+  ontime.add:
     description: Allows adding to playtimes.
     default: op
-  autorank.remove:
+  ontime.remove:
     description: Allows substracting from playtimes.
     default: op
-  autorank.debug:
+  ontime.debug:
     description: Displays debugging information.
     default: op
-  autorank.reload:
+  ontime.reload:
     description: Allows reloading the config.
     default: op
-  autorank.import:
+  ontime.import:
     description: Allows importing old storage.
     default: op
-  autorank.archive:
+  ontime.archive:
     description: Allows a player to archive old storage.
     default: op
-  autorank.noticeonupdate:
+  ontime.noticeonupdate:
     description: When a new update is available, Autorank will tell all players with this permission that a new version is available.
     default: op
-  autorank.sync:
-    description: Allows a player to do /ar sync
+  ontime.sync:
+    description: Allows a player to do /ot sync
     default: op
-  autorank.syncstats:
-    description: Allows a player to do /ar syncstats
+  ontime.syncstats:
+    description: Allows a player to do /ot syncstats
     default: op
-  autorank.complete:
-    description: Allows a player to do /ar complete
+  ontime.complete:
+    description: Allows a player to do /ot complete
     default: op
-  autorank.forcecheck:
+  ontime.forcecheck:
     description: Allows a player to forcecheck another player
     default: op
-  autorank.noticeonwarning:
+  ontime.noticeonwarning:
     description: Allows a player to see warnings when problems occur with Autorank.
     default: op
-  autorank.convert.playerdata:
+  ontime.convert.playerdata:
     description: Allows a player to convert the playerdata to UUID format.
     default: op
-  autorank.convert.data:
+  ontime.convert.data:
     description: Allows a player to convert the storage.yml to UUID format.
     default: op
-  autorank.help:
+  ontime.help:
     description: Allows a player to view a list of commands
     default: true
-  autorank.leaderboard.exclude:
+  ontime.leaderboard.exclude:
     description: Exempts a player from the leaderboard.
     default: false
-  autorank.leaderboard.broadcast:
+  ontime.leaderboard.broadcast:
     description: Allows a player to broadcast the leaderboard.
     default: op
-  autorank.leaderboard.force:
+  ontime.leaderboard.force:
     description: Allows a player to force-update the leaderboard.
     default: op
-  autorank.track:
+  ontime.track:
     description: Allows a player to view their requirement progress.
     default: true
-  autorank.gset:
+  ontime.gset:
     description: Allows changing global playtime of players.
     default: op
-  autorank.hooks:
+  ontime.hooks:
     description: Allows viewing the available hooks for Autorank
     default: op
-  autorank.gcheck:
+  ontime.gcheck:
     description: Allows checking global time.
     default: op
-  autorank.gadd:
+  ontime.gadd:
     description: Allows adding global time.
     default: op
-  autorank.view:
+  ontime.view:
     description: Allows previewing ranking paths before choosing
     default: true
-  autorank.choose:
+  ontime.choose:
     description: Allows choosing ranking paths
     default: true
-  autorank.times.self:
+  ontime.times.self:
     description: Allows checking your own time statistics.
     default: true
-  autorank.times.others:
+  ontime.times.others:
     description: Allows checking time statistics of other players.
     default: op
-  autorank.convert.simpleconfig:
+  ontime.convert.simpleconfig:
     description: Allows a player to convert storage from SimpleConfig to Paths
     default: op
-  autorank.convert.advancedconfig:
+  ontime.convert.advancedconfig:
     description: Allows a player to convert storage from AdvancedConfig to Paths
     default: op
-  autorank.backup.data:
+  ontime.backup.data:
     description: Allows a player to backup storage files
     default: op
-  autorank.deactivate:
+  ontime.deactivate:
     description: Allows a player to deactivate a path
     default: true
-  autorank.info.self:
+  ontime.info.self:
     description: Allows a player to view their own info.
     default: true
-  autorank.info.others:
+  ontime.info.others:
     description: Allows a player to view info of other players.
     default: op
-  autorank.editor.path.assign:
+  ontime.editor.path.assign:
     description: Allows a player to assign a path to another player
     default: op
-  autorank.editor.path.assign.force:
+  ontime.editor.path.assign.force:
     description: Allows a player to assign a path to another player by force
     default: op
-  autorank.editor.path.unassign:
+  ontime.editor.path.unassign:
     description: Allows a player to unassign a path from another player
     default: op
-  autorank.editor.complete.requirement:
+  ontime.editor.complete.requirement:
     description: Allows a player to complete a requirement for a path from another player.
     default: op
-  autorank.editor.complete.path:
+  ontime.editor.complete.path:
     description: Allows a player to complete a path for another player.
     default: op
-  autorank.migrate:
+  ontime.migrate:
     description: Allows a player to migrate data from another plugin to Autorank
     default: op

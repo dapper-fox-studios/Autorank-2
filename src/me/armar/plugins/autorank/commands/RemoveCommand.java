@@ -15,7 +15,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
 /**
- * The command delegator for the '/ar remove' command.
+ * The command delegator for the '/ot remove' command.
  */
 public class RemoveCommand extends AutorankCommand {
 
@@ -84,6 +84,6 @@ public class RemoveCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar remove [player] [value]";
+        return "/ot remove [player] [value]";
     }
 }

@@ -12,7 +12,7 @@ import org.bukkit.command.CommandSender;
 import java.util.concurrent.TimeUnit;
 
 /**
- * The command delegator for the '/ar archive' command.
+ * The command delegator for the '/ot archive' command.
  */
 public class ArchiveCommand extends AutorankCommand {
 
@@ -40,7 +40,7 @@ public class ArchiveCommand extends AutorankCommand {
         rate = AutorankTools.stringToTime(args[1], TimeUnit.MINUTES);
 
         if (rate <= 0) {
-            sender.sendMessage(ChatColor.RED + Lang.INVALID_FORMAT.getConfigValue("/ar archive 10d/10h/10m"));
+            sender.sendMessage(ChatColor.RED + Lang.INVALID_FORMAT.getConfigValue("/ot archive 10d/10h/10m"));
             return true;
         }
 
@@ -61,6 +61,6 @@ public class ArchiveCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar archive <minimum>";
+        return "/ot archive <minimum>";
     }
 }

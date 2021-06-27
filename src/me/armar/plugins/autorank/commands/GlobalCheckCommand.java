@@ -19,7 +19,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
 /**
- * The command delegator for the '/ar gcheck' command.
+ * The command delegator for the '/ot gcheck' command.
  */
 public class GlobalCheckCommand extends AutorankCommand {
 
@@ -125,6 +125,6 @@ public class GlobalCheckCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar gcheck [player]";
+        return "/ot gcheck [player]";
     }
 }

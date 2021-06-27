@@ -16,7 +16,7 @@ import java.util.Date;
 
 /**
  * This class is used to debug stuff when Autorank is running. <br>
- * Whenever a player uses the /ar debug command, it will create a new file with
+ * Whenever a player uses the /ot debug command, it will create a new file with
  * all sorts of information. <br>
  * This information can be sent to the author of Autorank so that he can easily
  * see what's wrong.

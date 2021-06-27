@@ -24,7 +24,7 @@ import java.util.Map;
 import java.util.UUID;
 
 /**
- * The command delegator for the '/ar import' command.
+ * The command delegator for the '/ot import' command.
  */
 public class ImportCommand extends AutorankCommand {
 
@@ -295,6 +295,6 @@ public class ImportCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar import <parameters>";
+        return "/ot import <parameters>";
     }
 }

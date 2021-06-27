@@ -18,7 +18,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
 /**
- * The command delegator for the '/ar migrate' command.
+ * The command delegator for the '/ot migrate' command.
  */
 public class MigrateCommand extends AutorankCommand {
 
@@ -108,7 +108,7 @@ public class MigrateCommand extends AutorankCommand {
 
     @Override
     public String getUsage() {
-        return "/ar migrate <type>";
+        return "/ot migrate <type>";
     }
 
 }
